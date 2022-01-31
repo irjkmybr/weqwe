@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="description" content=" В этом уроке фотошоп Вы узнаете как сделать 3D-текст в стиле фильма про трансформеров"> 
+<title>3D текст в стиле Трансформеров - Уроки Фотошоп </title> 
+<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/bootstrap.css">
+<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/font-awesome.css">
+<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/ionicons.css">
+<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/AdminLTE.css">
+<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/_all-skins.css">
+<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/cocoen.css">
+<script async="" src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/tag.js"></script><script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/cocoen.js"></script>
+<script>
+ document.addEventListener('DOMContentLoaded', function(){
+ new Cocoen(); // или new Cocoen(document.querySelector('.cocoen'));
+ });
+</script> 
+<link rel="canonical" href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/3d_tekst_v_stile_transformerov/2-1-0-119">
+
+	<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/base.css">
+	<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/layer1.css">
+
+	<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/jquery-1.js"></script>
+	
+	<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/uwnd.js"></script>
+	<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/uutils.fcg"></script>
+<script>/* --- UCOZ-JS-INIT_CODE --- */
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+/* --- UCOZ-JS-END --- */</script>
+
+	<link rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/ulightbox.css">
+	<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/ulightbox.js"></script>
+	<script>
+/* --- UCOZ-JS-DATA --- */
+window.uCoz = {"language":"ru","ssid":"617752564333544002626","site":{"id":"2constantin","host":"constantin.at.ua","domain":"photoshoplesson.ru"}};
+</script>
+
+	<style>.UhideBlock{display:none; }</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<link type="text/css" rel="stylesheet" href="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/uscl.css"></head>
+<body class="skin-blue sidebar-mini">
+<div class="wrapper"><!--U1AHEADER1Z-->
+<header class="main-header"><a href="https://photoshoplesson.ru/" class="logo">
+<span class="logo-mini"><b>P</b>S</span>
+<span class="logo-lg"><b>Photoshop lessons</b></span>
+</a>
+<nav class="navbar navbar-static-top" role="navigation">
+<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+<span class="sr-only"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<div class="navbar-custom-menu">
+<ul class="nav navbar-nav">
+<li class="dropdown messages-menu">
+<a href="https://photoshoplesson.ru/index/14" class="dropdown-toggle">
+<i class="fa fa-envelope-o"></i>
+<span class="label label-success">0</span>
+</a>
+<ul class="dropdown-menu">
+<li class="header">У вас нет сообщений!</li>
+<li>
+<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><ul class="menu" style="overflow: hidden; width: 100%; height: 200px;"><li></li></ul><div class="slimScrollBar" style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; width: 3px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px;"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</li>
+</ul>
+</li>
+
+<li class="dropdown user user-menu"><a href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;" class="dropdown-toggle"><span class="hidden-xs">ВОЙТИ</span></a></li>
+
+</ul>
+</div>
+</nav>
+</header><!--/U1AHEADER1Z-->
+<aside class="main-sidebar">
+<section class="sidebar" style="height: auto;"><!--U1CLEFTER1Z--><!-- Sidebar user panel -->
+
+
+<!-- search form -->
+<form action="/search" method="get" class="sidebar-form">
+<div class="input-group">
+<input name="q" class="form-control" placeholder="Поиск..." type="text">
+<span class="input-group-btn">
+<button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+</span>
+</div>
+</form>
+<!-- /.search form -->
+ <ul class="sidebar-menu">
+<li class="header">НАВИГАЦИЯ ПО САЙТУ</li>
+<li><a href="https://photoshoplesson.ru/"><i class="fa fa-circle-o text-red"></i> <span>ГЛАВНАЯ</span></a></li>
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-book"></i>
+<span>УРОКИ ФОТОШОП </span>
+<small class="label pull-right bg-green">new</small>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/load/"><i class="fa fa-circle-o"></i> ВСЕ УРОКИ</a></li> 
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/2"><i class="fa fa-file-text-o"></i> РАБОТА С ТЕКСТОМ</a></li>
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_foto_v_photoshop/3"><i class="fa fa-file-text-o"></i> РАБОТА С ФОТО</a></li>
+<li><a href="https://photoshoplesson.ru/load/ehffekty_v_photoshop/4"><i class="fa fa-file-text-o"></i> ЭФФЕКТЫ</a></li>
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/grafika_dlja_sajta_v_photoshop/5"><i class="fa fa-file-text-o"></i> ГРАФИКА ДЛЯ САЙТОВ</a></li>
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/dizajn_i_risovanie_v_photoshop/6"><i class="fa fa-file-text-o"></i> ДИЗАЙН / РИСОВАНИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/animacija_v_photoshop/7"><i class="fa fa-file-text-o"></i> АНИМАЦИЯ</a></li>
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/prakticheskie_uroki_po_photoshop/8"><i class="fa fa-file-text-o"></i> ПРАКТИЧЕСКИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/load/uroki_fotoshop/videouroki_po_photoshop/12"><i class="fa fa-file-video-o"></i> ВИДЕОУРОКИ</a></li> 
+</ul>
+</li>
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-download"></i>
+<span> БЕСПЛАТНЫЙ СОФТ</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/skachat_fotoshop"><i class="fa fa-download"></i> ФОТОШОП</a></li>
+<li><a href="https://photoshoplesson.ru/programmy_dlja_fotodizajna"><i class="fa fa-download"></i> ФОТОДИЗАЙН</a></li>
+</ul>
+</li>
+<li><a href="https://photoshoplesson.ru/fotoshop_onlajn" target="_blank"><i class="fa fa-refresh" aria-hidden="true"></i> <span>ФОТОШОП ОНЛАЙН</span></a></li> 
+<li><a href="https://photoshoplesson.ru/publ/fotoredaktory_onlajn/53"><i class="fa fa-refresh" aria-hidden="true"></i> <span>ФОТОМАСТЕР ОНЛАЙН</span></a></li> 
+<li><a href="https://photoshoplesson.ru/publ/poleznye_stati/1"><i class="fa fa-graduation-cap"></i> <span>ПОЛЕЗНЫЕ СТАТЬИ</span></a></li>
+<li><a href="https://photoshoplesson.ru/forum/"><i class="fa fa-comments-o"></i><span>ФОРУМ</span></a></li>
+<li><a href="https://photoshoplesson.ru/index/druzja_sajta/0-207"><i class="fa fa-coffee"></i> <span>ДРУЗЬЯ САЙТА</span></a></li> 
+<li><a href="https://photoshoplesson.ru/index/0-3"><i class="fa fa-envelope-o"></i> <span>ОБРАТНАЯ СВЯЗЬ</span></a></li>
+<li><a href="https://photoshoplesson.ru/faq/"> <i class="fa fa-hand-paper-o"></i><span>ВОПРОСЫ И ОТВЕТЫ</span></a></li>
+<li class="header"> ДОПОЛНЕНИЯ ДЛЯ ФОТОШОП</li> 
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-font"></i>
+<span> ШРИФТЫ</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/shrifty_dlja_fotoshop/2"><i class=" fa fa-download"></i> ВСЕ ШРИФТЫ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shrifty_dlja_fotoshop/anglijskie/4"><i class="fa fa-download"></i> АНГЛИЙСКИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shrifty_dlja_fotoshop/dekorativnye/41"><i class="fa fa-download"></i> ДЕКОРАТИВНЫЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shrifty_dlja_fotoshop/russkie/3"><i class="fa fa-download"></i> РУССКИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shrifty_dlja_fotoshop/rukopisnye_eng/6"><i class="fa fa-download"></i> РУКОПИСНЫЕ </a></li>
+</ul>
+</li>
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-paint-brush"></i>
+<span>КИСТИ</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/kisti_dlja_fotoshop/9"><i class="fa fa-download"></i> ВСЕ КИСТИ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/kisti_dlja_fotoshop/abstrakcija/10"><i class="fa fa-download"></i> АБСТРАКТНЫЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/kisti_dlja_fotoshop/uzory_i_tatu/19"><i class="fa fa-download"></i> УЗОРЫ И ТАТУ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/kisti_dlja_fotoshop/v_mire_zhivotnykh/12"><i class="fa fa-download"></i> ЖИВОТНЫЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/kisti_dlja_fotoshop/oruzhie/13"><i class="fa fa-download"></i> ОРУЖИЕ</a></li>
+</ul>
+</li>
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-map-o"></i>
+<span>ТЕКСТУРЫ</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/tekstury_dlja_fotoshop/20"><i class="fa fa-download"></i> ВСЕ ТЕКСТУРЫ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/tekstury_dlja_fotoshop/cvety_i_uzory/43"><i class="fa fa-download"></i> ЦВЕТЫ И УЗОРЫ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/tekstury_dlja_fotoshop/assorti/22"><i class="fa fa-download"></i> АССОРТИ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/tekstury_dlja_fotoshop/metall/21"><i class="fa fa-download"></i> МЕТАЛЛ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/tekstury_dlja_fotoshop/kamni_i_pesok/42"><i class="fa fa-download"></i> КАМНИ И ПЕСОК</a></li>
+</ul>
+</li> 
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-eye"></i>
+<span>СТИЛИ</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/stili_dlja_fotoshop/23"><i class="fa fa-download"></i> ВСЕ СТИЛИ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/stili_dlja_fotoshop/glamur/28"><i class="fa fa-download"></i> ГЛАМУР</a></li>
+<li><a href="https://photoshoplesson.ru/publ/stili_dlja_fotoshop/steklo/27"><i class="fa fa-download"></i> СТЕКЛО</a></li>
+<li><a href="https://photoshoplesson.ru/publ/stili_dlja_fotoshop/prirodnye/24"><i class="fa fa-download"></i> ПРИРОДНЫЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/stili_dlja_fotoshop/tkan/25"><i class="fa fa-download"></i> ТКАНЬ</a></li>
+</ul>
+</li> 
+<li><a href="https://photoshoplesson.ru/gradienty"><i class="fa fa-diamond"></i><span> ГРАДИЕНТЫ</span></a></li> 
+<li><a href="https://photoshoplesson.ru/publ/vse_ehksheny/36"> <i class="fa fa-caret-square-o-right"></i><span>ЭКШЕНЫ</span></a></li> 
+<li><a href="https://photoshoplesson.ru/publ/filtry_plaginy/39"><i class="fa fa-bolt"></i><span> ПЛАГИНЫ</span></a></li> 
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-scissors" aria-hidden="true"></i>
+<span>КЛИПАРТЫ</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/psd_iskhodniki/14"><i class="fa fa-download"></i> ВСЕ КЛИПАРТЫ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/psd_iskhodniki/miks/18"><i class="fa fa-download"></i> МИКС</a></li>
+<li><a href="https://photoshoplesson.ru/publ/psd_iskhodniki/fauna/17"><i class="fa fa-download"></i> ФАУНА</a></li>
+<li><a href="https://photoshoplesson.ru/publ/psd_iskhodniki/prazdniki/44"><i class="fa fa-download"></i> ПРАЗДНИЧНЫЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/psd_iskhodniki/dragocennosti/16"><i class="fa fa-download"></i> ДРАГОЦЕННОСТИ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/psd_iskhodniki/flora/15"><i class="fa fa-download"></i> ФЛОРА</a></li> 
+</ul>
+</li> 
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-file-image-o"></i>
+<span>РАМКИ ДЛЯ ФОТО</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/ramki_dlja_fotoshop/31"><i class="fa fa-download"></i> ВСЕ РАМКИ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/ramki_dlja_fotoshop/raznye/46"><i class="fa fa-download"></i> НА РАЗНЫЕ ТЕМЫ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/ramki_dlja_fotoshop/shkolnye/48"><i class="fa fa-download"></i> ДЛЯ ШКОЛЬНЫХ ФОТО</a></li>
+<li><a href="https://photoshoplesson.ru/publ/ramki_dlja_fotoshop/detskie/59"><i class="fa fa-download"></i> ДЛЯ ДЕТСКИХ ФОТО</a></li>
+<li><a href="https://photoshoplesson.ru/publ/ramki_dlja_fotoshop/novogodnie/32"><i class="fa fa-download"></i> НОВОГОДНИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/ramki_dlja_fotoshop/valentin/45"><i class="fa fa-download"></i> ДЕНЬ СВ.ВАЛЕНТИНА</a></li> 
+</ul>
+</li> 
+<li class="treeview">
+<a href="#">
+ <i class="fa fa-picture-o"></i>
+<span> ШАБЛОНЫ ДЛЯ ФОТО</span>
+<i class="fa fa-angle-left pull-right"></i>
+</a>
+<ul class="treeview-menu">
+<li><a href="https://photoshoplesson.ru/publ/shablony_dlja_foto/33"><i class="fa fa-download"></i> ВСЕ ШАБЛОНЫ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shablony_dlja_foto/zhenskie/34"><i class="fa fa-download"></i> ЖЕНСКИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shablony_dlja_foto/muzhskie/35"><i class="fa fa-download"></i> МУЖСКИЕ</a></li>
+<li><a href="https://photoshoplesson.ru/publ/shablony_dlja_foto/raznoe/47"><i class="fa fa-download"></i> НА РАЗНЫЕ ТЕМЫ</a></li>
+</ul>
+</li> 
+<li><a href="https://photoshoplesson.ru/publ/kalendari/66"><i class="fa fa-calendar"></i><span>КАЛЕНДАРИ</span></a></li> 
+<li class="header"></li>
+</ul><!--/U1CLEFTER1Z--> 
+</section>
+</aside>
+<div class="content-wrapper" style="min-height: 1065px;">
+<section class="content-header"><h1>3D текст в стиле Трансформеров</h1>
+</section>
+<!-- Main content -->
+<section class="content">
+<!-- Default box -->
+<div class="box">
+<div class="box-body"><!-- <body> --><table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tbody><tr>
+<td width="80%"><a href="https://photoshoplesson.ru/"><!--<s5176>-->Главная<!--</s>--></a> » <a href="https://photoshoplesson.ru/load/"><!--<s5182>-->Уроки фотошоп<!--</s>--></a>» <a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/2">Работа с текстом в Фотошоп</a></td>
+<td style="white-space: nowrap;" align="right"></td>
+</tr>
+</tbody></table>
+<hr>
+<div class="eTitle" style="padding-bottom:3px;"></div>
+<table class="eBlock" cellspacing="0" cellpadding="2" border="0" width="100%">
+<tbody><tr><td width="85%">
+</td><td style="font-size:7pt;white-space: nowrap;" align="right">2011-02-20, 00:46</td></tr>
+<tr><td class="eText" colspan="2">В этом уроке фотошоп Вы узнаете как сделать 3D-текст в стиле фильма Трансформеры<p></p><div style="text-align: center;"><img title="Текст в стиле фильма Трансформеры" src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/12.jpg" alt="Трансформеры"></div><h2>Шаг 1.</h2>Для начала подберём <a href="https://photoshoplesson.ru/publ/vse_shrifty/2" target="_blank">шрифт</a>. Побродив по интернетовским просторам, я нашёл вот такой <a href="https://photoshoplesson.ru/publ/vse_shrifty/anglijskie/shrift_sf_transrobotics/4-1-0-623" target="_blank">SF Transbotics</a><a href="https://photoshoplesson.ru/fonts/english/ENG/9/sf_transrobotics.zip"></a>. Загружаем шрифт (<a href="https://photoshoplesson.ru/forum/9-7-1" target="_blank" title="Как установить новый шрифт в Photoshop">здесь</a>
+ написано как это сделать) в систему проверяем появился ли шрифт в 
+фотошоп в списке шрифтов и создаём новый документ. Я взял размеры 
+540х300 рх и разрешением 72 рх. Нажмите клавишу D, если у вас не стоят 
+цвета по умолчанию. Далее нажимаем Alt-Backspace чтобы залить документ 
+чёрным цветом. Теперь нажимаем Х чтобы переключить передний план палитры
+ на белый. Берём <strong>инструмент Текст</strong>(Т) и печатаем наше слово. Параметры текста смотрите ниже:<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/1.jpg" alt=""></div><h2>Шаг 2.</h2>В
+ оригинале названия Transformers у букв T и F основания опущены ниже чем
+ у остальных. Чтобы сделать это, нам нужно растрировать текст. Кликаем 
+правой кнопкой мыши на текстовом слое в нашей палитре слоев и выбираем <strong>Rasterize</strong> из меню. Это преобразовывает наш слой из типа текста в обычную графику.<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/2.jpg" alt=""></div><h2>Шаг 3.</h2>После того как мы сделали растеризацию текста,появилась возможность работать с ним как с обычным изображением. Берём инструмент <strong>Rectangular Marquee tool</strong> (М) <strong>Прямоугольное выделение</strong>. Выделяем основание у букв T и F. Переносим выделения на отдельные слои ( Ctrl + J) и применяем к ним <strong>Free Transform</strong> ( Ctrl+T) <strong>Свободное трансформирование</strong>, чтобы удлинить основание писем.<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/3.jpg" alt=""></div><h2>Шаг 4.</h2>Обьедините все слои кроме основного, залитого чёрным.<h2>Шаг 5.</h2>Теперь создадим трехмерный эффект.<p>Во-первых добавляем стиль слоя. Двойным щелчком на слое в палитре слоев, открываем диалоговое окно <strong>Layer Style</strong> (<strong>Стиля Слоя</strong>). И для<strong>Bevel andEmboss</strong> (<strong>Тиснение</strong>)применяем настройки :</p><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/5.jpg" alt=""></div><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/6.jpg" alt=""></div><h2>Шаг 6.</h2>Чтобы
+ создать иллюзию трехмерного текста, мы будем дублировать наш текстовый 
+слой несколько раз, каждый раз перемещая текст. Чтобы дублировать 
+выбранный слой просто нажимаем Ctrl-J или выбираем <strong>Layer-Duplicate Layer</strong> (<strong>Слой- Создать дупликат слоя</strong>) из главного меню. Это создаст новый слой выше выбранного слоя. Чтобы переместить текст, убедитесь, что Вы выбрали <strong>инструмент Перемещения </strong>.
+ Для перемещения слоя используйте стрелки на клавиатуре. После каждого 
+перемещения дублируйте слой. В общей сложности у Вас должно получится 5 
+копий слоя.<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/7.jpg" alt=""></div><h2>Шаг 7.</h2>Слейте
+ все слои со сдвигами в один. Выделив второй слой сверху, при нажатой 
+клавише Shift, кликните по нужному нижнему слою ( Transformers copy). 
+Убираем с верхнего слоя стиль <strong>Bevel and Emboss</strong> и кликнув два раза на названиях слоев перименуем их в Transformers Top иTransformers 3D<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/8.jpg" alt=""></div><h2>Шаг 8.</h2>Выделите слой Transformers Top и добавте пять стилей слоя. Нажмите ОК когда все стили будут добавлены.<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/9.jpg" alt=""></div><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/9a.jpg" alt=""></div><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/9b.jpg" alt=""></div><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/9c.jpg" alt=""></div><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/9d.jpg" alt=""></div><p></p><p>Вот что должно получится:</p><p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/10.jpg" alt=""></div><h2>Шаг 9.</h2>Как
+ мне кажется, наши трёхмерные края слишком светлые. Чтобы решить эту 
+проблему, сделайте активнымслой TRANSFORMERS 3D, затем вызовем 
+диалоговое окно <strong>Levels </strong>(Ctrl-L ). Смещайте левый ползунок к середине, пока трехмерные края не станут выглядеть правильно.<p></p><div style="text-align: center;"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/11.jpg" alt=""></div><p></p><p>Для завершения я добавил небольшое отражение.</p><p></p><div style="text-align: center;"><a href="https://photoshoplesson.ru/yroki/text/18/12.jpg"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/12.jpg" alt=""></a></div> <div class="cBlock" align="left"><!--U1DLYUROKOV1Z--><br><p>Желаю успехов !</p> <p>Всегда для Вас: photoshoplesson.ru</p><p>У Вас возникло желание показать результаты Ваших трудов ? Выложите свои работы на наш <a href="https://photoshoplesson.ru/forum/8" target="_blank" title="Форум о фотошоп">форум</a> !</p><p><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/vosklicatelnyj-znak1.jpg" alt=""><em><span style="color: #ff0000">Уважаемые посетители сайта</span>,
+ потратившие время на просмотр этого урока . Нам очень хотелось бы знать
+ понравился ли он вам и был ли он вам полезен. Не поленитесь оставить 
+комментарий . Заранее спасибо.</em></p><p></p><div style="text-align: center;"><!-- uSocial -->
+<script async="" src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/usocial.js" data-script="usocial" charset="utf-8"></script>
+<div class="uSocial-Share" data-pid="73c696fb2392425248a3de00d6267eb7" data-type="share" data-options="round,style1,default,absolute,horizontal,size48,counter0" data-social="vk,ok,twi,fb,telegram,tumblr,mail" data-mobile="vi,wa,sms" data-key="0" data-url="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/3d_tekst_v_stile_transformerov/2-1-0-119" style="display: block;"><div class="uscl-bar uscl-round uscl-style1 uscl-default uscl-absolute uscl-horizontal uscl-size48 uscl-counter0 uscl-eachCounter0"><div class="uscl-list"><div class="uscl-item"><span data-item="vk" title="Поделиться ВКонтакте" class="ico_uscl_soc ico_uscl ico_uscl-vk uscl-vk"></span></div><div class="uscl-item"><span data-item="ok" title="Поделиться в OK.ru" class="ico_uscl_soc ico_uscl ico_uscl-ok uscl-ok"></span></div><div class="uscl-item"><span data-item="twi" title="Поделиться в Twitter" class="ico_uscl_soc ico_uscl ico_uscl-twi uscl-twi"></span></div><div class="uscl-item"><span data-item="fb" title="Поделиться в Facebook" class="ico_uscl_soc ico_uscl ico_uscl-fb uscl-fb"></span></div><div class="uscl-item"><span data-item="telegram" title="Поделиться в Telegram" class="ico_uscl_soc ico_uscl ico_uscl-telegram uscl-telegram"></span></div><div class="uscl-item"><span data-item="tumblr" title="Поделиться в Tumblr" class="ico_uscl_soc ico_uscl ico_uscl-tumblr uscl-tumblr"></span></div><div class="uscl-item"><span data-item="mail" title="Поделиться в Мой Мир" class="ico_uscl_soc ico_uscl ico_uscl-mail uscl-mail"></span></div><div class="uscl-item uscl-slide"><span class="uscl-slide-close ico_uscl-arrow ico_uscl"></span></div></div><span class="uscl-slide-open ico_uscl-like"></span></div></div>
+<!-- /uSocial --></div><p></p><div style="text-align: center;"><b><span style="color: #02a8e6"> ПОХОЖИЕ УРОКИ:</span></b> </div> <p></p><ul class="uRelatedEntries"><li class="uRelatedEntry"><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/ukrashaem_bukvy_s_pomoshhju_tekstury/2-1-0-6">Украшаем буквы в фотошоп с помощью текстуры</a></li><li class="uRelatedEntry"><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/nadpis_v_perspektive_sdelannaja_v_fotoshop/2-1-0-44">Надпись в перспективе , с 3D эффектом  в Фотошоп</a></li><li class="uRelatedEntry"><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/3d_tekst/2-1-0-68">Создадим 3D текст в фотошоп</a></li><li class="uRelatedEntry"><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/otlivaem_tekst_iz_zolota_v_fotoshop/2-1-0-3">Отливаем текст из золота в Фотошоп</a></li><li class="uRelatedEntry"><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/matovyj_fon_dlja_nadpisi/2-1-0-4">Матовый фон для надписи в фотошоп</a></li></ul>          <hr><!--/U1DLYUROKOV1Z--> </div></td></tr>
+<tr><td class="eDetails1" colspan="2"><div style="float:right">
+			<style type="text/css">
+				.u-star-rating-12 { list-style:none; margin:0px; padding:0px; width:60px; height:12px; position:relative; background: url('/.s/img/stars/3/12.png') top left repeat-x }
+				.u-star-rating-12 li{ padding:0px; margin:0px; float:left }
+				.u-star-rating-12 li a { display:block;width:12px;height: 12px;line-height:12px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding: 0px;overflow:hidden }
+				.u-star-rating-12 li a:hover { background: url('/.s/img/stars/3/12.png') left center;z-index:2;left:0px;border:none }
+				.u-star-rating-12 a.u-one-star { left:0px }
+				.u-star-rating-12 a.u-one-star:hover { width:12px }
+				.u-star-rating-12 a.u-two-stars { left:12px }
+				.u-star-rating-12 a.u-two-stars:hover { width:24px }
+				.u-star-rating-12 a.u-three-stars { left:24px }
+				.u-star-rating-12 a.u-three-stars:hover { width:36px }
+				.u-star-rating-12 a.u-four-stars { left:36px }
+				.u-star-rating-12 a.u-four-stars:hover { width:48px }
+				.u-star-rating-12 a.u-five-stars { left:48px }
+				.u-star-rating-12 a.u-five-stars:hover { width:60px }
+				.u-star-rating-12 li.u-current-rating { top:0 !important; left:0 !important;margin:0 !important;padding:0 !important;outline:none;background: url('/.s/img/stars/3/12.png') left bottom;position: absolute;height:12px !important;line-height:12px !important;display:block;text-indent:-9000px;z-index:1 }
+			</style><script>
+				var usrarids = {};
+				function ustarrating(id, mark) {
+					if (!usrarids[id]) {
+						usrarids[id] = 1;
+						$(".u-star-li-"+id).hide();
+						_uPostForm('', {type:'POST', url:'/load/', data:{
+							'a':'65',
+							'id':id,
+							'mark':mark,
+							'mod':'load',
+							'ajax':'2'
+						}});
+					}
+				}
+			</script><ul id="uStarRating119" class="uStarRating119 u-star-rating-12" title="Рейтинг: 5.0/1">
+			<li id="uCurStarRating119" class="u-current-rating uCurStarRating119" style="width:100%;"></li><li class="u-star-li-119"><a href="#" onclick="ustarrating('119', 1); return false;" class="u-one-star">1</a></li>
+				<li class="u-star-li-119"><a href="#" onclick="ustarrating('119', 2); return false;" class="u-two-stars">2</a></li>
+				<li class="u-star-li-119"><a href="#" onclick="ustarrating('119', 3); return false;" class="u-three-stars">3</a></li>
+				<li class="u-star-li-119"><a href="#" onclick="ustarrating('119', 4); return false;" class="u-four-stars">4</a></li>
+				<li class="u-star-li-119"><a href="#" onclick="ustarrating('119', 5); return false;" class="u-five-stars">5</a></li></ul></div>
+<span class="e-category"><span class="ed-title"><!--<s3179>-->Категория<!--</s>-->:</span> <span class="ed-value"><a href="https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/2">Работа с текстом в Фотошоп</a></span></span><span class="ed-sep"> | </span><span class="e-author"><span class="ed-title"><!--<s3178>-->Добавил<!--</s>-->:</span> <span class="ed-value"><a href="javascript:;" rel="nofollow" onclick="window.open('/index/8-1', 'up1', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">CoMish</a></span></span>
+<span class="ed-sep"> | </span><span class="e-tags"><span class="ed-title"><!--<s5308>-->Теги<!--</s>-->:</span> <span class="ed-value"><noindex><a href="https://photoshoplesson.ru/search/3D/" rel="nofollow" class="eTag">3D</a>, <a href="https://photoshoplesson.ru/search/%D1%82%D0%B5%D0%BA%D1%81%D1%82/" rel="nofollow" class="eTag">текст</a>, <a href="https://photoshoplesson.ru/search/%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D1%8B/" rel="nofollow" class="eTag">трансформеры</a>, <a href="https://photoshoplesson.ru/search/transformers/" rel="nofollow" class="eTag">transformers</a></noindex></span></span>
+</td></tr>
+<tr><td class="eDetails2" colspan="2"><span class="e-reads"><span class="ed-title"><!--<s3177>-->Просмотров<!--</s>-->:</span> <span class="ed-value">13192</span></span>
+
+<span class="ed-sep"> | </span><span class="e-rating"><span class="ed-title"><!--<s3119>-->Рейтинг<!--</s>-->:</span> <span class="ed-value"><span id="entRating119">5.0</span>/<span id="entRated119">1</span></span></span></td></tr>
+</tbody></table>
+
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tbody><tr><td height="25" width="60%"><!--<s5183>-->Всего комментариев<!--</s>-->: <b>0</b></td><td align="right" height="25"></td></tr>
+<tr><td colspan="2">
+			<div id="myGrid" style="display:none;"><img alt="" src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/i3.gif"></div>
+			<script>
+				function spages(p,link) {
+					document.location.href = atob(link);
+				}
+			</script>
+			<a name="comments"></a>
+			<div id="newEntryT"></div>
+			<div id="allEntries"></div>
+			<div id="newEntryB"></div><script>
+			
+		if (!window.uCoz ) window.uCoz = {};
+		if (!uCoz.spam ) uCoz.spam = {};
+		if (!uCoz.spam.sign ) uCoz.spam.sign = {};
+
+		if (!uCoz.spam.config ) uCoz.spam.config = {};
+
+		uCoz.spam.config.scopeID  = 0;
+		uCoz.spam.config.idPrefix = 'comEnt';
+
+		uCoz.spam.sign.spam            = 'Спам';
+		uCoz.spam.sign.notSpam         = 'Не спам';
+		uCoz.spam.sign.hidden          = 'Спам-сообщение скрыто.';
+		uCoz.spam.sign.shown           = 'Спам-сообщение показано.';
+		uCoz.spam.sign.show            = 'Показать';
+		uCoz.spam.sign.hide            = 'Скрыть';
+		uCoz.spam.sign.admSpam         = 'Разрешить жалобы';
+		uCoz.spam.sign.admSpamTitle    = 'Разрешить пользователям сайта помечать это сообщение как спам';
+		uCoz.spam.sign.admNotSpam      = 'Это не спам';
+		uCoz.spam.sign.admNotSpamTitle = 'Пометить как не-спам, запретить пользователям жаловаться на это сообщение';
+
+		
+
+		uCoz.spam.moderPanelNotSpamClick = function(elem) {
+			var waitImg = $('<img align="absmiddle" src="/.s/img/fr/EmnAjax.gif">');
+			var elem = $(elem);
+			elem.find('img').hide();
+			elem.append(waitImg);
+			var messageID = elem.attr('data-message-id');
+			var notSpam   = elem.attr('data-not-spam') ? 0 : 1; // invert - 'data-not-spam' should contain CURRENT 'notspam' status!
+			$.post('/index/', {
+				a          : 101,
+				scope_id   : uCoz.spam.config.scopeID,
+				message_id : messageID,
+				not_spam   : notSpam
+			}).then(function(response) {
+				waitImg.remove();
+				elem.find('img').show();
+				if (response.error) {
+					alert(response.error);
+					return;
+				}
+				if (response.status == 'admin_message_not_spam') {
+					elem.attr('data-not-spam', true).find('img').attr('src', '/.s/img/spamfilter/notspam-active.gif');
+					$('#del-as-spam-' + messageID).hide();
+				} else {
+					elem.removeAttr('data-not-spam').find('img').attr('src', '/.s/img/spamfilter/notspam.gif');
+					$('#del-as-spam-' + messageID).show();
+				}
+				//console.log(response);
+			});
+			return false;
+		};
+
+
+		uCoz.spam.report = function(scopeID, messageID, notSpam, callback, context) {
+			return $.post('/index/', {
+				a: 101,
+				scope_id   : scopeID,
+				message_id : messageID,
+				not_spam   : notSpam
+			}).then(function(response) {
+				if (callback) {
+					callback.call(context || window, response, context);
+				} else {
+					window.console && console.log && console.log('uCoz.spam.report: message #' + messageID, response);
+				}
+			});
+		};
+
+		uCoz.spam.reportDOM = function(event) {
+			if (event.preventDefault ) event.preventDefault();
+			var elem      = $(this);
+			if (elem.hasClass('spam-report-working') ) return false;
+			var scopeID   = uCoz.spam.config.scopeID;
+			var messageID = elem.attr('data-message-id');
+			var notSpam   = elem.attr('data-not-spam');
+			var target    = elem.parents('.report-spam-target').eq(0);
+			var height    = target.outerHeight(true);
+			var margin    = target.css('margin-left');
+			elem.html('<img src="/.s/img/wd/1/ajaxs.gif">').addClass('report-spam-working');
+			uCoz.spam.report(scopeID, messageID, notSpam, function(response, context) {
+				context.elem.text('').removeClass('report-spam-working');
+				window.console && console.log && console.log(response); // DEBUG
+				response.warning && window.console && console.warn && console.warn( 'uCoz.spam.report: warning: ' + response.warning, response );
+				if (response.warning && !response.status) {
+					// non-critical warnings, may occur if user reloads cached page:
+					if (response.warning == 'already_reported' ) response.status = 'message_spam';
+					if (response.warning == 'not_reported'     ) response.status = 'message_not_spam';
+				}
+				if (response.error) {
+					context.target.html('<div style="height: ' + context.height + 'px; line-height: ' + context.height + 'px; color: red; font-weight: bold; text-align: center;">' + response.error + '</div>');
+				} else if (response.status) {
+					if (response.status == 'message_spam') {
+						context.elem.text(uCoz.spam.sign.notSpam).attr('data-not-spam', '1');
+						var toggle = $('#report-spam-toggle-wrapper-' + response.message_id);
+						if (toggle.length) {
+							toggle.find('.report-spam-toggle-text').text(uCoz.spam.sign.hidden);
+							toggle.find('.report-spam-toggle-button').text(uCoz.spam.sign.show);
+						} else {
+							toggle = $('<div id="report-spam-toggle-wrapper-' + response.message_id + '" class="report-spam-toggle-wrapper" style="' + (context.margin ? 'margin-left: ' + context.margin : '') + '"><span class="report-spam-toggle-text">' + uCoz.spam.sign.hidden + '</span> <a class="report-spam-toggle-button" data-target="#' + uCoz.spam.config.idPrefix + response.message_id + '" href="javascript:;">' + uCoz.spam.sign.show + '</a></div>').hide().insertBefore(context.target);
+							uCoz.spam.handleDOM(toggle);
+						}
+						context.target.addClass('report-spam-hidden').fadeOut('fast', function() {
+							toggle.fadeIn('fast');
+						});
+					} else if (response.status == 'message_not_spam') {
+						context.elem.text(uCoz.spam.sign.spam).attr('data-not-spam', '0');
+						$('#report-spam-toggle-wrapper-' + response.message_id).fadeOut('fast');
+						$('#' + uCoz.spam.config.idPrefix + response.message_id).removeClass('report-spam-hidden').show();
+					} else if (response.status == 'admin_message_not_spam') {
+						elem.text(uCoz.spam.sign.admSpam).attr('title', uCoz.spam.sign.admSpamTitle).attr('data-not-spam', '0');
+					} else if (response.status == 'admin_message_spam') {
+						elem.text(uCoz.spam.sign.admNotSpam).attr('title', uCoz.spam.sign.admNotSpamTitle).attr('data-not-spam', '1');
+					} else {
+						alert('uCoz.spam.report: unknown status: ' + response.status);
+					}
+				} else {
+					context.target.remove(); // no status returned by the server - remove message (from DOM).
+				}
+			}, { elem: elem, target: target, height: height, margin: margin });
+			return false;
+		};
+
+		uCoz.spam.handleDOM = function(within) {
+			within = $(within || 'body');
+			within.find('.report-spam-wrap').each(function() {
+				var elem = $(this);
+				elem.parent().prepend(elem);
+			});
+			within.find('.report-spam-toggle-button').not('.report-spam-handled').click(function(event) {
+				if (event.preventDefault ) event.preventDefault();
+				var elem    = $(this);
+				var wrapper = elem.parents('.report-spam-toggle-wrapper');
+				var text    = wrapper.find('.report-spam-toggle-text');
+				var target  = elem.attr('data-target');
+				target      = $(target);
+				target.slideToggle('fast', function() {
+					if (target.is(':visible')) {
+						wrapper.addClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.shown);
+						elem.text(uCoz.spam.sign.hide);
+					} else {
+						wrapper.removeClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.hidden);
+						elem.text(uCoz.spam.sign.show);
+					}
+				});
+				return false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-remove').not('.report-spam-handled').click(function(event) {
+				if (event.preventDefault ) event.preventDefault();
+				var messageID = $(this).attr('data-message-id');
+				del_item(messageID, 1);
+				return false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-btn').not('.report-spam-handled').click(uCoz.spam.reportDOM).addClass('report-spam-handled');
+			window.console && console.log && console.log('uCoz.spam.handleDOM: done.');
+			try { if (uCoz.manageCommentControls) { uCoz.manageCommentControls() } } catch(e) { window.console && console.log && console.log('manageCommentControls: fail.'); }
+			return this;
+		};
+	
+			uCoz.spam.handleDOM();
+		</script></td></tr>
+<tr><td colspan="2" align="center"></td></tr>
+<tr><td colspan="2" height="10"></td></tr>
+</tbody></table>
+
+
+<div style="text-align: center;"><div class="commReg"><!--<s5237>-->Добавлять комментарии могут только зарегистрированные пользователи.<!--</s>--><br>[ <a href="https://photoshoplesson.ru/index/3"><!--<s3089>-->Регистрация<!--</s>--></a> | <a href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a> ]</div></div>
+
+<!-- </body> -->
+</div><!-- /.box-body -->
+</div><!-- /.box -->
+</section><!-- /.content -->
+</div><!-- /.content-wrapper -->
+<!--U1BFOOTER1Z--><footer class="main-footer">
+<p>Все материалы на сайте принадлежат исключительно их владельцам!</p>
+<p> © 2021 <strong>Photoshop lessons</strong> - Сделай этот мир ярче!</p> 
+ <!-- Yandex.Metrika counter --><script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/watch.js" type="text/javascript"></script><script type="text/javascript">try { var yaCounter17608033 = new Ya.Metrika({id:17608033});}catch(e) { }</script><noscript><div><img src="//mc.yandex.ru/watch/17608033" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --> <!--LiveInternet counter--><script type="text/javascript">
+document.write('<a href="//www.liveinternet.ru/click" '+
+'target="_blank"><img src="//counter.yadro.ru/hit?t44.1;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';h'+escape(document.title.substring(0,150))+';'+Math.random()+
+'" alt="" title="LiveInternet" '+
+'border="0" width="31" height="31"><\/a>')
+</script><a href="https://www.liveinternet.ru/click" target="_blank"><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/hit_002.gif" alt="" title="LiveInternet" height="31" border="0" width="31"></a><!--/LiveInternet-->
+
+<!-- hit.ua -->
+<a href="http://hit.ua/?x=102883" target="_blank">
+<script language="javascript" type="text/javascript"><!--
+Cd=document;Cr="&"+Math.random();Cp="&s=1";
+Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+Cp+="&t="+(new Date()).getTimezoneOffset();
+if(self!=top)Cp+="&f=1";
+//--></script>
+<script language="javascript1.1" type="text/javascript"><!--
+if(navigator.javaEnabled())Cp+="&j=1";
+//--></script>
+<script language="javascript1.2" type="text/javascript"><!--
+if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+//--></script>
+<script language="javascript" type="text/javascript"><!--
+Cd.write("<img src='//c.hit.ua/hit?i=102883&g=0&x=2"+Cp+Cr+
+"&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+"' border='0' wi"+"dth='1' he"+"ight='1'/>");
+//--></script><img src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/hit.gif" height="1" border="0" width="1">
+<noscript>
+<img src='//c.hit.ua/hit?i=102883&amp;g=0&amp;x=2' border='0'/>
+</noscript></a>
+<!-- / hit.ua --> 
+</footer><!--/U1BFOOTER1Z--> 
+ 
+
+ 
+ 
+ 
+ 
+
+<div class="control-sidebar-bg" style="position: fixed; height: auto;"></div>
+</div><!-- ./wrapper -->
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/jQuery-2.htm"></script>
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/bootstrap.js"></script>
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/jquery.js"></script>
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/fastclick.js"></script>
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/demo.js"></script>
+ <script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/app.js"></script>
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/html5shiv.js"></script>
+<script src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/respond.js"></script>
+<!--U1SHEMAORG1Z-->
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [{
+ "@type": "ListItem",
+ "position": 1,
+ "name": "Главная",
+ "item": "https://photoshoplesson.ru/"
+ },{
+ "@type": "ListItem",
+ "position": 2,
+ "name": "Работа с текстом в Фотошоп",
+ "item": "https://photoshoplesson.ru/load/uroki_fotoshop/rabota_s_tekstom_v_photoshop/2"
+ }]
+}
+</script> 
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "3D текст в стиле Трансформеров",
+ "operatingSystem": "",
+ "applicationCategory": "https://schema.org/GameApplication",
+ "aggregateRating": {
+ "@type": "AggregateRating",
+ "ratingValue": "5.0",
+ "ratingCount": "1"
+ },
+ "offers": {
+ "@type": "Offer",
+ "price": "0",
+ "priceCurrency": "USD"
+ }
+ }
+ </script>
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "ImageObject",
+ "author": "CoMish",
+ "contentLocation": "Ukraine",
+ "contentUrl": "https://photoshoplesson.ru/_ld/1/15835415.jpg",
+ "datePublished": "2011-02-20",
+ "description": "3D-текст в стиле фильма Трансформеры",
+ "name": "3D-текст в стиле фильма Трансформеры"
+}
+</script>
+
+
+
+
+
+<!--/U1SHEMAORG1Z-->
+
+
+<script async="" type="text/javascript" charset="UTF-8" src="3D%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B2%20%D1%81%D1%82%D0%B8%D0%BB%D0%B5%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20-%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8%20%D0%A4%D0%BE%D1%82%D0%BE%D1%88%D0%BE%D0%BF_files/usocial_002.js"></script></body></html>
+<!-- 0.09328 (s102) -->
